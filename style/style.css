@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.header, .footer{
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.header__flex, footer__flex, .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{ 
+    max-width: 1070px;
+    margin: 0px auto;
+}
+
+
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+
+.nav__li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav__link:hover{
+    color:black;
+    transition: 300ms;
+}
+
+.button{
+    height: 60px;
+    width: 212px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button__orange{
+    background: #FF7143;
+}
+
+
+.button__orange:hover{
+    background: hsl(15, 87%, 56%);
+    transition: 300ms;
+}
+
+.button__violet{
+    background: #5454D4;
+    margin-right: 35px;
+}
+
+.button__transparent{
+    background: none;
+    margin-right: 35px;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+}
+
+.button__violet:hover{
+    background: #3838ca;
+    transition: 300ms;
+}
+
+.about{
+    margin: 105px auto 85px; 
+}
+
+.about__title{
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+
+
+
+.about__text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 410px;
+    margin-bottom: 50px;
+}
+
+
+.footer{
+    padding: 53px 0;
+}
+
+
+
+
